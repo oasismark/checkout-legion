@@ -104,8 +104,7 @@
           gaClientId: window.gaClientId
         }), function (data) {
           if (data) {
-            console.log('FLAMINGO', data);
-            console.log('FLAMINGO urlEmail' , urlEmail);
+            console.log('FLAMINGO', data, '\nWINDOW', window);
             if (window.lp_event)
               window.lp_event('paidInviteSignup', {value: data.price});
               if (data.message === 'already_in_team' || data.message === 'Success') {
