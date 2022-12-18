@@ -105,7 +105,7 @@
         }), function (data) {
           console.log('WINDOW', window);
           if (data) {
-            console.log('FLAMINGO', data, '\nWINDOW', window);
+            console.log('FLAMINGORR', data, '\nWINDOW', window);
             if (window.lp_event)
               window.lp_event('paidInviteSignup', {value: data.price});
               if (data.message === 'already_in_team' || data.message === 'Success') {
