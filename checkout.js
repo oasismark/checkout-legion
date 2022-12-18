@@ -103,6 +103,7 @@
           validCoupon: validCoupon,
           gaClientId: window.gaClientId
         }), function (data) {
+          console.log('WINDOW', window);
           if (data) {
             console.log('FLAMINGO', data, '\nWINDOW', window);
             if (window.lp_event)
